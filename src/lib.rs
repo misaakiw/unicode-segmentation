@@ -72,7 +72,7 @@ pub use word::{UWordBoundIndices, UWordBounds, UnicodeWordIndices, UnicodeWords}
 
 mod grapheme;
 #[rustfmt::skip]
-mod tables;
+pub mod tables;
 mod sentence;
 mod word;
 
